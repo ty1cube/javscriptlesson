@@ -27,15 +27,14 @@
 
 
 var studentName =   ["Azeez", "tosin", "Femi", "tope", "Dimeji","Toro"] 
-
-var studentNameNew = studentName.push("Dorcas")
-
+studentName.push("Dorcas", "Aziz")
+studentName.pop()
 console.log(studentName)
 //[]
 // var studentName = new Array()
 
 // console.log(studentName[-1])
-console.log(studentName.length);
+// console.log(studentName.length);
 
 // var studentNameAge = ["Azeez", 5, "Tosin", true, null]
 // console.log(studentNameAge)
@@ -51,18 +50,18 @@ console.log(studentName.length);
 // var height = "5.4m"
 // var girl = 'f'    "eat"
 
-var person = {
-    firstName:"Tosin",
-    Age: 70,
-    Height: "1.8m",
-    color: [4, "cool", true]
-}
+// var person = {
+//     firstName:"Tosin",
+//     Age: 70,
+//     Height: "1.8m",
+//     color: [4, "cool", true]
+// }
 
 
 
-console.log(person.firstName)
-console.log(person.color[2])
+// console.log(person.firstName)
+// console.log(person.color[2])
 
-// var person = new Object()
+// // var person = new Object()
 
 
