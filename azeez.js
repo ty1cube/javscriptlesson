@@ -26,10 +26,10 @@
 
 
 
-var studentName =   ["Azeez", "tosin", "Femi", "tope", "Dimeji","Toro"] 
-studentName.push("Dorcas", "Aziz")
-studentName.pop()
-console.log(studentName)
+// var studentName =   ["Azeez", "tosin", "Femi", "tope", "Dimeji","Toro"] 
+// studentName.push("Dorcas", "Aziz")
+// studentName.pop()
+// console.log(studentName)
 //[]
 // var studentName = new Array()
 
@@ -63,5 +63,19 @@ console.log(studentName)
 // console.log(person.color[2])
 
 // // var person = new Object()
+
+
+// Arithmetic Operator
+// +, -, /, *, %, **, ++, --
+//Calculate area of rectangle, circle, square, triangle
+
+//Area of rectangle:      Area= length x breadth
+var length = 8
+var breadth = 5
+var area = length * breadth
+
+console.log("Area of rectangle =",  area)
+
+
 
 
